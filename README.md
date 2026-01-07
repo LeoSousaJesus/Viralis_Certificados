@@ -2,7 +2,6 @@
 
 Viralis Certificações is a platform dedicated to evaluating, auditing, and certifying public management excellence. It provides a private institutional certification for good practices in Municipalities and City Councils across Brazil, focusing on transparency, efficiency, and governance.
 
-The original design is available on [Figma](https://www.figma.com/design/q1X8ZFzGNHsAAcYU9jHpCj/Viralis-Certifica%C3%A7%C3%B5es).
 
 ## 🚀 Purpose
 
