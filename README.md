@@ -1,102 +1,105 @@
 # Viralis Certificações
 
-Viralis Certificações is a platform dedicated to evaluating, auditing, and certifying public management excellence. It provides a private institutional certification for good practices in Municipalities and City Councils across Brazil, focusing on transparency, efficiency, and governance.
+A Viralis Certificações é uma plataforma dedicada à avaliação, auditoria e certificação da excelência em gestão pública. Ela oferece uma certificação institucional privada para boas práticas em municípios e câmaras municipais em todo o Brasil, com foco em transparência, eficiência e governança.
 
 
-## 🚀 Purpose
+## 🚀 Proposta
 
-The main goal of this project is to elevate the standard of quality and transparency in public management through:
-- Strategic consultancy and process auditing.
-- A rigorous evaluation protocol based on real data and performance indicators.
-- Issuing secure and audit-able certificates.
-- Providing a public verification system for citizens and institutions.
+O principal objetivo deste projeto é elevar o padrão de qualidade e transparência na gestão pública por meio de:
+- Consultoria estratégica e auditoria de processos.
 
-## ✨ Key Features
+- Um protocolo de avaliação rigoroso baseado em dados reais e indicadores de desempenho.
 
-- **Institutional Certification:** Assessment and recognition of good public management practices.
-- **Authenticity Verification:** A dedicated module for verifying the validity of issued certificates using unique hash codes.
-- **Methodology & Protocol:** A structured approach to analysis, including data collection, cross-validation, and performance indicators.
-- **Public Registry:** A secure database ensuring the traceability and transparency of certifications.
-- **Detailed Reports:** Comprehensive diagnostics with actionable insights for management improvement.
+- Emissão de certificados seguros e auditáveis.
 
-## 🛠️ Technologies Used
+- Fornecimento de um sistema público de verificação para cidadãos e instituições.
 
-This project is built with a modern frontend stack:
+## ✨ Principais Características
 
-- **Core:** [React](https://react.dev/) with [TypeScript](https://www.typescriptlang.org/)
-- **Build Tool:** [Vite](https://vitejs.dev/)
-- **Styling:**
-  - [Tailwind CSS](https://tailwindcss.com/) (v4)
-  - [Emotion](https://emotion.sh/)
-  - [Radix UI](https://www.radix-ui.com/) primitives for accessible components
-- **Routing:** [React Router](https://reactrouter.com/)
-- **Icons:** Material Symbols & Lucide React
-- **Typography:** Public Sans (Google Fonts)
-- **Other Libraries:**
-  - `react-hook-form`: Form management
-  - `recharts`: Data visualization
-  - `framer-motion` / `motion`: Animations
-  - `date-fns`: Date manipulation
-  - `sonner`: Toast notifications
+- **Certificação Institucional:** Avaliação e reconhecimento de boas práticas de gestão pública.
+- **Verificação de Autenticidade:** Um módulo dedicado para verificar a validade dos certificados emitidos utilizando códigos hash únicos.
+- **Metodologia e Protocolo:** Uma abordagem estruturada para análise, incluindo coleta de dados, validação cruzada e indicadores de desempenho.
+- **Registro Público:** Um banco de dados seguro que garante a rastreabilidade e a transparência das certificações.
+- **Relatórios Detalhados:** Diagnósticos abrangentes com informações práticas para aprimoramento da gestão.
 
-## 📂 Project Structure
+- ## 🛠️ Tecnologias Utilizadas
+
+Este projeto foi construído com uma pilha de frontend moderna:
+
+- **Núcleo:** [React](https://react.dev/) com [TypeScript](https://www.typescriptlang.org/)
+- **Ferramenta de Build:** [Vite](https://vitejs.dev/)
+- **Estilização:**
+- [Tailwind CSS](https://tailwindcss.com/) (v4)
+- [Emotion](https://emotion.sh/)
+- [Radix UI](https://www.radix-ui.com/) para componentes acessíveis
+- **Roteamento:** [React Router](https://reactrouter.com/)
+- **Ícones:** Material Symbols e Lucide React
+- **Tipografia:** Public Sans (Google Fonts)
+- **Outras Bibliotecas:**
+- `react-hook-form`: Formulário Gerenciamento
+- `recharts`: Visualização de dados
+- `framer-motion` / `motion`: Animações
+- `date-fns`: Manipulação de datas
+- `sonner`: Notificações Toast
+
+## 📂 Estrutura do Projeto
 
 ```
 src/
 ├── app/
-│   ├── components/  # Reusable UI components
-│   └── pages/       # Application routes/views
-│       ├── Home.tsx          # Landing page
-│       ├── Certification.tsx # Certification details
-│       ├── Methodology.tsx   # Explanation of the evaluation protocol
-│       ├── Authenticity.tsx  # Information on certificate security
-│       └── Verify.tsx        # Tool to verify certificate codes
-├── styles/          # Global styles
-└── main.tsx         # Entry point
+│   ├── components/  # Componentes de UI reutilizáveis
+│   └── pages/       # Rotas/visualizações do aplicativo
+│       ├── Home.tsx          # Página inicial
+│       ├── Certification.tsx # Detalhes da certificação
+│       ├── Methodology.tsx   # Explicação do protocolo de avaliação
+│       ├── Authenticity.tsx  # Informações sobre a segurança do certificado
+│       └── Verify.tsx        # Ferramenta para verificar códigos de certificado
+├── styles/          # Estilos globais
+└── main.tsx         # Ponto de entrada
 ```
 
-## 🏃‍♂️ Getting Started
+## 🏃‍♂️ Primeiros passos
 
-### Prerequisites
+### Pré-requisitos
 
-- Node.js (v18 or higher recommended)
+- Node.js (versão 18 ou superior recomendada)
 - npm or yarn
 
-### Installation
+### Instalação
 
-1. Clone the repository:
+1. Clone o repositório:
    ```bash
    git clone <repository-url>
    ```
-2. Navigate to the project directory:
+2. Navegue até o diretório do projeto:
    ```bash
    cd viralis-certificacoes
    ```
-3. Install dependencies:
+3. Instale as dependências:
    ```bash
    npm install
    ```
 
-### Running Development Server
+### Executando o servidor de desenvolvimento
 
-To start the development server with hot reload:
+Para iniciar o servidor de desenvolvimento com recarregamento automático:
 
 ```bash
 npm run dev
 ```
 
-The application will be available at `http://localhost:5173` (or another port if 5173 is in use).
+O aplicativo estará disponível em `http://localhost:5173` (ou outra porta, se 5173 for a padrão). (está em uso).
 
-### Building for Production
+### Compilando para Produção
 
-To build the project for production:
+Para compilar o projeto para produção:
 
 ```bash
 npm run build
 ```
 
-This will generate the optimized files in the `dist` directory.
+Isso irá gerar os arquivos otimizados no diretório `dist`.
 
-## 📄 License
+## 📄 Licença
 
-This project is proprietary software of Viralis Certificações.
+Este projeto é um software proprietário da Viralis Certificações.
